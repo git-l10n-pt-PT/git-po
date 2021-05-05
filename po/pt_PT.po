@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the Git package.
 # Contributors:
 #   - Daniel Santos <hello@brighterdan.com>
+#   - Guilherme H. Jardim <ghjardim AT gmail.com>
 # Past Contributors:
 #   - Marco Sousa <marcomsousa AT gmail.com>
 #   - Vasco Almeida <vascomalmeida@sapo.pt>, 2016, 2017.
@@ -11,7 +12,7 @@
 #
 #   English                          |  Portuguese
 #   ---------------------------------+--------------------------------------
-#   3-way merge                      |  junção-de-3
+#   3-way merge                      |  tri-junção
 #   abbreviate                       |  
 #   alternate object database        |  
 #   amend                            |  
@@ -1278,12 +1279,12 @@ msgstr "%s: no index há correspondência nenhuma"
 
 #: apply.c:3572
 msgid "repository lacks the necessary blob to fall back on 3-way merge."
-msgstr "repositório falta o blob necessário para recorrer à junção-de-3."
+msgstr "repositório falta o blob necessário para recorrer à tri-junção."
 
 #: apply.c:3575
 #, c-format
 msgid "Falling back to three-way merge...\n"
-msgstr "A recorrer a integração com 3 pontos...\n"
+msgstr "A recorrer a tri-junção...\n"
 
 #: apply.c:3591 apply.c:3595
 #, c-format
@@ -1293,7 +1294,7 @@ msgstr "incapaz ler conteúdo atual de '%s'"
 #: apply.c:3607
 #, c-format
 msgid "Failed to fall back on three-way merge...\n"
-msgstr "Falha a recorrer a integração com 3 pontos...\n"
+msgstr "Falha a recorrer a tri-junção...\n"
 
 #: apply.c:3621
 #, c-format
@@ -1562,7 +1563,7 @@ msgstr "aplicar o patch também (use com --stat/--summary/--check)"
 
 #: apply.c:5022
 msgid "attempt three-way merge if a patch does not apply"
-msgstr "tentar junção-de-3 se um patch submete-se de maneira nenhuma"
+msgstr "tentar tri-junção se um patch submete-se de maneira nenhuma"
 
 #: apply.c:5024
 msgid "build a temporary index based on embedded index information"
@@ -10105,8 +10106,7 @@ msgstr "linha de identidade inválida: %s"
 #: builtin/am.c:1489
 msgid "Repository lacks necessary blobs to fall back on 3-way merge."
 msgstr ""
-"O repositório não tem os blobs necessários para recorrer a integração com 3 "
-"pontos."
+"O repositório não tem os blobs necessários para recorrer a tri-junção."
 
 #: builtin/am.c:1491
 msgid "Using index info to reconstruct a base tree..."
@@ -10123,8 +10123,7 @@ msgstr ""
 #: builtin/am.c:1516
 msgid "Falling back to patching base and 3-way merge..."
 msgstr ""
-"A recorrer a uma de base para aplicação de patches e integração com 3 "
-"pontos..."
+"A recorrer a uma de base para aplicação de patches e tri-junção..."
 
 #: builtin/am.c:1542
 msgid "Failed to merge in the changes."
@@ -10248,7 +10247,7 @@ msgstr "opção histórica -- sem-ação"
 
 #: builtin/am.c:2224
 msgid "allow fall back on 3way merging if needed"
-msgstr "permitir recorrer a integração com 3 pontos se necessário"
+msgstr "permitir recorrer a tri-junção se necessário"
 
 #: builtin/am.c:2225 builtin/init-db.c:558 builtin/prune-packed.c:16
 #: builtin/repack.c:335 builtin/stash.c:815
@@ -12104,7 +12103,7 @@ msgstr "forçar informação de progresso"
 
 #: builtin/checkout.c:1505
 msgid "perform a 3-way merge with the new branch"
-msgstr "realizar uma integração com 3 pontos com o novo ramo"
+msgstr "realizar uma tri-junção com o novo ramo"
 
 #: builtin/checkout.c:1506 builtin/log.c:1800 parse-options.h:322
 msgid "style"
@@ -19147,12 +19146,12 @@ msgstr "realizar uma integração em adição a uma leitura"
 #: builtin/read-tree.c:133
 msgid "3-way merge if no file level merging required"
 msgstr ""
-"integrar com 3 pontos se a integração ao nível de ficheiros não for "
+"tri-juntar se a integração ao nível de ficheiros não for "
 "necessária"
 
 #: builtin/read-tree.c:135
 msgid "3-way merge in presence of adds and removes"
-msgstr "integrar com 3 ponto na presença de adições e remoções"
+msgstr "tri-juntar na presença de adições e remoções"
 
 #: builtin/read-tree.c:137
 msgid "same as -m, but discard unmerged entries"
@@ -24098,7 +24097,7 @@ msgstr "encontrar antecessores de uma única integração com n pontos"
 #: command-list.h:126
 #, fuzzy
 msgid "Run a three-way file merge"
-msgstr "Faz uma junção por três de ficheiro"
+msgstr "Faz uma tri-junção de ficheiro"
 
 #: command-list.h:127
 #, fuzzy
