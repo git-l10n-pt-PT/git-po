@@ -49,6 +49,7 @@
 #   evil merge                       |  
 #   fast-forward                     |  
 #   fetch                            |  buscar
+#   field                            |  campo
 #   file system                      |  
 #   fork                             |  aforquilhar
 #   Git archive                      |  
@@ -21338,11 +21339,11 @@ msgstr "ajustar linhas"
 
 #: builtin/shortlog.c:374
 msgid "field"
-msgstr ""
+msgstr "campo"
 
 #: builtin/shortlog.c:375
 msgid "Group by field"
-msgstr ""
+msgstr "Agrupar por campo"
 
 #: builtin/shortlog.c:403
 #, fuzzy
